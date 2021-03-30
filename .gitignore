@@ -1,0 +1,62 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# Directorios y archivos No requeridos y son excluidos por git:
+
+.history/
+.vscode/launch.json
+intro/faker/faker_goBCK
+intro/faker/faker.go
+pruebas/fizzbuzz/vendor/modules.txt
+pruebas/fizzbuzz/vendor/github.com/davecgh/go-spew/LICENSE
+pruebas/fizzbuzz/vendor/github.com/davecgh/go-spew/spew/bypass.go
+pruebas/fizzbuzz/vendor/github.com/davecgh/go-spew/spew/bypasssafe.go
+pruebas/fizzbuzz/vendor/github.com/davecgh/go-spew/spew/common.go
+pruebas/fizzbuzz/vendor/github.com/davecgh/go-spew/spew/config.go
+pruebas/fizzbuzz/vendor/github.com/davecgh/go-spew/spew/doc.go
+pruebas/fizzbuzz/vendor/github.com/davecgh/go-spew/spew/dump.go
+pruebas/fizzbuzz/vendor/github.com/davecgh/go-spew/spew/format.go
+pruebas/fizzbuzz/vendor/github.com/davecgh/go-spew/spew/spew.go
+pruebas/fizzbuzz/vendor/github.com/pmezard/go-difflib/LICENSE
+pruebas/fizzbuzz/vendor/github.com/pmezard/go-difflib/difflib/difflib.go
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/LICENSE
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/assertion_compare.go
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/assertion_format.go
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/assertion_format.go.tmpl
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/assertion_forward.go
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/assertion_forward.go.tmpl
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/assertion_order.go
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/assertions.go
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/doc.go
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/errors.go
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/forward_assertions.go
+pruebas/fizzbuzz/vendor/github.com/stretchr/testify/assert/http_assertions.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/.travis.yml
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/apic.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/decode.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/emitterc.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/encode.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/go.mod
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/LICENSE
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/NOTICE
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/parserc.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/readerc.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/README.md
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/resolve.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/scannerc.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/sorter.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/writerc.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/yaml.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/yamlh.go
+pruebas/fizzbuzz/vendor/gopkg.in/yaml.v3/yamlprivateh.go

@@ -1,0 +1,13 @@
+1. Leer archivo Vehiculos.txt
+   La informacion esta organizada de la siguiente forma:
+     Autos: Marca, modelo, año, precio, puertas, color, transmisión
+     Motos: Marca, modelo, año, CC, precio, color
+2. Generar objetos a partir de lo leido en el archivo, aplicar concepto de herencia y retornar lista de vehículos
+3. Función para retornar una lista de Carros y / o  de motos
+4. Definir interface para comportamiento de Vehiculos
+5. Crear comportamiento Encender() para cualquier vehículo
+6. Función para calcular impuesto del vehículo (46.5%) y guardarlo en el mismo objeto
+7. Función para establecer el estado del vehículo ('Ok', 'Averiado'). Usar aleatorios.
+8. Definir comportamiento Encender() según el estado, si está Ok, imprimir mensaje con el tipo de transmisión para los autos y el CC para las motos
+
+JUAN FELIPE VÁSQUEZ ESCOBAR - Softlond
