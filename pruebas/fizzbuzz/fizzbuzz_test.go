@@ -11,6 +11,8 @@
 // ejem: go get github.com/stretchr/testify
 // ejem: go mod init fizzbuzz
 
+// https://github.com/juanfvasquez/go-examples
+
 package main
 
 import (

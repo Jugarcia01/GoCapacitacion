@@ -28,7 +28,7 @@ func esPalindromo(num int) (res bool, err error) {
 		for {
 			remainder = tmpNumber % 10
 			reverse = reverse*10 + remainder
-			//fmt.Println(reverse)
+			// fmt.Println(reverse)
 			tmpNumber /= 10
 
 			if tmpNumber == 0 {
