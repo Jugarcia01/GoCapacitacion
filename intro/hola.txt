@@ -1,0 +1,5 @@
+Hola mundo desde el archivo.
+Este es un
+archivo de texto
+para lectura desde
+una aplicación.
