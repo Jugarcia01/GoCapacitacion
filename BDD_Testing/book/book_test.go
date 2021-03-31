@@ -1,7 +1,7 @@
 package book_test
 
 import (
-	. "github.com/Jugarcia01/GoCapacitacion/tree/master/pruebas"
+	. "github.com/Jugarcia01/GoCapacitacion/tree/master/BDD_Testing/book"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
