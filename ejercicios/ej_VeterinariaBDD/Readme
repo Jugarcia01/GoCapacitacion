@@ -1,0 +1,15 @@
+/*
+Tener en cuenta que para que la suite de ginkgo y gomega funcionen bien, se debe
+aplicar previamente los siguientes comandos:
+ginkgo generate
+ginkgo bootstrap
+
+Ejem:
+PS C:\GoCode\src\GoCapacitacion\ejercicios\ej_VeterinariaBDD> ginkgo generate
+Generating ginkgo test for EjVeterinariaBDD in:
+  ej_VeterinariaBDD_test.go
+
+PS C:\GoCode\src\GoCapacitacion\ejercicios\ej_VeterinariaBDD> ginkgo bootstrap
+Generating ginkgo test suite bootstrap for ej_VeterinariaBDD in:
+        ej_VeterinariaBDD_suite_test.go
+*/

@@ -1,0 +1,47 @@
+/*
+El ejercicio será simular la gestión de una veterinaria en la cual puedo registrar y dar
+salida a nuestras mascotas. También habrá gestión de vacunación y suministro de jarabes.
+La idea es que, por consola, podamos seleccionar una opción de un menú que será así:
+
+1. Ver todas las mascotas: Nos muestra el listado con el ID, el nombre, qué animal es,
+la edad en meses y el peso en libras.
+
+2. Buscar: Al seleccionar esta opción nos pedirá que ingresemos una palabra o palabras y
+se buscarán las mascotas que coincidan con dichas palabras en el ID, nombre o en el tipo de animal.
+
+3. Registrar mascota: Nos pedirá los datos necesarios para crear una mascota
+(ID, nombre, qué animal es, edad en meses, peso en libras).
+
+4. Dar salida: Eliminará el registro de la lista de mascotas.
+
+5. Ver Vacunas: Muestra el listado de vacunas
+(ID, nombre, para tipo de mascota, edad mínima en años, centímetros cúbicos por cada kg).
+
+6a. Aplicar vacuna:  Nos pedirá el ID de la vacuna y el ID de la mascota que queremos vacunar.
+Si la vacuna no es para ese tipo de mascota, o la mascota no tiene la edad suficiente,
+se mostrará un mensaje diciendo que no se puede aplicar la vacuna; de lo contrario
+le indicará cuántos centímetros cúbicos se deben aplicar calculado según el peso de la mascota.
+6b. Jarabe: Nos pedirá el ID de la mascota, si la mascota tiene menos de 3 meses,
+se mostrará el mensaje diciendo que no se puede suministrar; de lo contrario,
+se indicará cuando mililitros del jarabe le corresponden a la mascota.
+El cálculo de los mililitros es el siguiente según el peso de la mascota:
+
+- Si la mascota tiene entre 3 meses y un año, se debe suministrar 1,5 mililitros por cada kg.
+- Si la mascota tiene entre 1 año y 2,5 años, se debe suministrar 2,5 mililitros por cada kg.
+- Si la mascota tiene más de 2,5 años, se debe suministrar 3 mililitros por cada kg.
+
+7. Salir: Con está opción daremos por terminada la ejecución de nuestro programa.
+
+Recuerden las características de las buenas pruebas unitarias:
+- Rápidas de programar y ejecutar.
+- Independientes de elementos externos (lectura de archivos, captura de datos por teclado, etc).
+- Independientes de otras pruebas.
+
+Los ID serán de tipo string de 4 caracteres, puede contener letras mayúsculas o números, y
+será generado aleatoriamente.
+
+Les envío archivos para leer y puedan crear algunas mascotas, vacunas.
+Pueden agregar más si lo consideran conveniente. Solo tendremos un jarabe y las
+condiciones están descritas arriba.
+
+JUAN FELIPE VÁSQUEZ ESCOBAR - Softlond */
