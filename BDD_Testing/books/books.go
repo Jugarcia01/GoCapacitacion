@@ -1,12 +1,12 @@
-package book
+package main
 
-type Book struct {
+type Books struct {
 	Titulo  string
 	Autor   string
 	Paginas int
 }
 
-func (b *Book) CategoryByLength() string {
+func (b *Books) CategoryByLength() string {
 
 	if b.Paginas >= 300 {
 		return "NOVELA"

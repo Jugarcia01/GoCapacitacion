@@ -1,7 +1,6 @@
-package book_test
+package main
 
 import (
-	. "github.com/Jugarcia01/GoCapacitacion/tree/master/BDD_Testing/book"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
@@ -9,18 +8,18 @@ import (
 var _ = Describe("Book", func() {
 
 	var (
-		granLibro  Book
-		cortoLibro Book
+		granLibro  Books
+		cortoLibro Books
 	)
 
 	BeforeEach(func() {
-		granLibro = Book{
+		granLibro = Books{
 			Titulo:  "El inversor inteligente",
 			Autor:   "Benjamin Graham",
 			Paginas: 624,
 		}
 
-		cortoLibro = Book{
+		cortoLibro = Books{
 			Titulo:  "Lo que queda del dia",
 			Autor:   "Kazuo Ishiguro",
 			Paginas: 245,

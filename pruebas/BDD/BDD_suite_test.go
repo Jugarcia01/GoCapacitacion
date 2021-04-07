@@ -1,4 +1,4 @@
-package book_test
+package main_test
 
 import (
 	"testing"
@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestBook(t *testing.T) {
+func TestBDD(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Book Suite")
+	RunSpecs(t, "BDD Suite")
 }
